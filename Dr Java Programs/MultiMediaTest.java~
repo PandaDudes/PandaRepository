@@ -1,0 +1,9 @@
+public class MultiMediaTest
+{
+  public static void main(String[]args)
+  {
+    World w = new World(300,300);
+    Turtle t = new Turtle(w);
+  }
+}
+   

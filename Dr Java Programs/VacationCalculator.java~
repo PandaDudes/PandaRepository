@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+ 
+
+public class VacationCalculator
+
+{
+
+   public static void main (String[] args)
+
+  {
+double hotel = 0;
+
+double airplaneticket = 0;
+
+double spendingmoney= 0;
+
+double vacationCost= 0;
+
+Scanner scan = new Scanner(System.in);
+
+          System.out.println("Enter the estimated price of your hotel.");
+hotel = scan.nextDouble();
+
+          System.out.println("Enter the estimated price of your airplane ticket.");
+airplaneticket = scan.nextDouble();
+
+          System.out.println("Enter the estimated price of your spending money.");
+spendingmoney = scan.nextDouble();
+
+        vacationCost = (hotel+airplaneticket+spendingmoney);
+
+       
+
+        System.out.println("The total approximate expenses for the vacation are $" + vacationCost + ".");
+
+      }
+}

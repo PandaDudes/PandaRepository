@@ -1,0 +1,17 @@
+public class DrawingTurtleTester  
+
+{
+
+public static void main(String[]args)  
+
+{
+
+World w = new World();
+
+DrawingTurtle draw = new   DrawingTurtle(300,200, w);
+
+  draw.drawSquare(100);    
+
+}  
+
+}

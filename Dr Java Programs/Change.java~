@@ -1,0 +1,30 @@
+//Comments at the top are a great place for your name
+//Comments can be used to describe programs
+//This program shell is for our Change program in IP3.3
+public class Change
+{  
+
+  //The main method starts the program.
+  public static void main (String [] args)
+  {
+    int change;
+  int pennies;
+  int nickles;
+  int dimes;
+  int quarters;
+  int remainder;
+  change = 46;
+  quarters = change / 25;
+  remainder = change % 25;
+  dimes = remainder / 10;
+  remainder= remainder % 10;
+  nickles = remainder / 5;
+  remainder = nickles % 5;
+  pennies = remainder;
+  System.out.println( "Starting Change: " + change); 
+  System.out.println( "Quarters: " + quarters); 
+  System.out.println( "dimes: " + dimes);
+  System.out.println( "nickles: " + nickles); 
+  System.out.println( "Pennies: " + pennies); 
+  }
+}

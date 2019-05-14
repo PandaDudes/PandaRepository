@@ -1,0 +1,34 @@
+public class DataTypePractice 
+{ 
+  public static void main (String[] args) 
+ { 
+    int one = 120; //legal assignment 
+    int two = 120; //illegal assignment - remove .0 to run program 
+    int three = 2147483647; //highest value in int 
+    int four = -2147483648; //lowest value in int 
+    System.out.println("one = " + one); 
+    System.out.println("two = " + two); 
+    System.out.println("three = " + three); 
+    System.out.println("four = " + four); 
+    three = three + 1; //three should get bigger 
+    four = four - 1; //four should get smaller 
+    System.out.println("three changed to " + three); 
+    System.out.println("four changed to " + four); 
+    double five = 35; 
+  double six = 97.234; 
+  System.out.println("five = " + five); 
+  System.out.println("six = " + six); 
+  five = five * 2.0; //doubles the value of five 
+  six = six / 2.0; //cuts six in half. 
+  System.out.println("five changed to " + five); 
+  System.out.println("six changed to " + six);
+  char seven = 'a'; 
+    char eight = 'A'; 
+    System.out.println("seven = " + seven); 
+    System.out.println("eight = " + eight); 
+    boolean nine = (seven == eight); 
+    boolean ten = (seven != eight); 
+    System.out.println("nine = " + nine); 
+    System.out.println("ten = " + ten);
+ } 
+}

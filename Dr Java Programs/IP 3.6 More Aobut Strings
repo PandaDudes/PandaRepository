@@ -1,0 +1,8 @@
+//Jacob Allen
+// This program highlights the use of strings and escape sequences
+
+publlic class StringArt
+{
+  public static void main(String[] args)
+  {
+    String line1 = "
